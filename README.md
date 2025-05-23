@@ -1,4 +1,7 @@
-# Google Ads Managed Component
+# Beta: Google Ads Managed Component
+
+> [!CAUTION]
+> Warning: this is beta software in development that may be buggy, vulnerable, or otherwise not appropriate to use. Use at your own risk.
 
 Find out more about Managed Components [here](https://blog.cloudflare.com/zaraz-open-source-managed-components-and-webcm/) for inspiration and motivation details.
 
