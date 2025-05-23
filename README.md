@@ -16,6 +16,33 @@ Find out more about Managed Components [here](https://blog.cloudflare.com/zaraz-
 2. Install dependencies with `npm i`
 3. Run unit test watcher with `npm run test:dev`
 
+## Google Ads API Service Account
+
+Since this is a fully server side implementation, you will need to create a service account in your Google Ads account. You can do this by following these steps:
+
+### 1. Create Service Account
+1. Go to Google Cloud Console → IAM & Admin → Service Accounts
+2. Create new service account
+3. Download the JSON key file
+4. Enable Google Ads API for your project
+
+### 2. Grant Access in Google Ads
+1. In Google Ads → Tools → Access and Security → Account Access
+2. Add the service account email as a user
+3. Grant appropriate permissions (at minimum: Standard access)
+
+### 3. Extract Key Components for Zaraz
+From the JSON key file, you'll need these as separate Zaraz settings:
+
+- `client_email`
+- `private_key`
+- `project_id`
+- Your Google Ads `customer_id`
+- Your `developer_token` (from Google Ads API Center)
+
+> ![NOTE]
+> Need help? [Create an issue](https://github.com/mackenly/google-ads/issues) or post in the [Cloudflare Discord Zaraz channel](https://ptb.discord.com/channels/595317990191398933/917505178016579605) and tag `@mackenly`.
+
 ## ⚙️ Tool Settings
 
 > Settings are used to configure the tool in a Component Manager config file
