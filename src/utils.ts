@@ -1,4 +1,4 @@
-import type { Client, ComponentSettings } from '@managed-components/types'
+import type { Client } from '@managed-components/types'
 
 /**
  * Get a random integer between min (inclusive) and max (exclusive)

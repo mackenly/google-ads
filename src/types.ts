@@ -1,5 +1,6 @@
 /**
  * Interface for client-side Google Ads calls
+ * @remarks TODO: Add more details about the properties
  */
 export interface GAdsQuery {
   guid: string
